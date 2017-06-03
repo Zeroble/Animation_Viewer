@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sup3rd3v3l0p3r.teamvetor.anigod_viewer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Animation Viewer"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".aniView"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".AniList.AniList_all"/>
+        <activity android:name=".AniList.AniList_Ga"/>
+        <activity android:name=".AniList.AniList_Gga"/>
+        <activity android:name=".AniList.AniList_Na"/>
+        <activity android:name=".AniList.AniList_Da"/>
+        <activity android:name=".AniList.AniList_Ra"/>
+        <activity android:name=".AniList.AniList_Ma"/>
+        <activity android:name=".AniList.AniList_Ba"/>
+        <activity android:name=".AniList.AniList_Va"/>
+        <activity android:name=".AniList.AniList_Sa"/>
+        <activity android:name=".AniList.AniList_Ssa"/>
+        <activity android:name=".AniList.AniList_Aa"/>
+        <activity android:name=".AniList.AniList_Za"/>
+        <activity android:name=".AniList.AniList_Cha"/>
+        <activity android:name=".AniList.AniList_Ka"/>
+        <activity android:name=".AniList.AniList_Ta"/>
+        <activity android:name=".AniList.AniList_Pa"/>
+        <activity android:name=".AniList.AniList_Ha"/>
+        <activity android:name=".AniList.AniList_AtoZ"/>
+        <activity android:name=".ShowEp"/>
+    </application>
+
+</manifest>

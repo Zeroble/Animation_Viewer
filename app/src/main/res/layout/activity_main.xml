@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sup3rd3v3l0p3r.teamvetor.anigod_viewer.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff5252"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_All"
+                android:text="All" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Ga"
+                android:text="ㄱ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Gga"
+                android:text="ㄲ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Na"
+                android:text="ㄴ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Da"
+                android:text="ㄷ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Ra"
+                android:text="ㄹ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Ma"
+                android:text="ㅁ" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Ba"
+                android:text="ㅂ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Va"
+                android:text="ㅃ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Sa"
+                android:text="ㅅ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Ssa"
+                android:text="ㅆ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Aa"
+                android:text="ㅇ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Za"
+                android:text="ㅈ" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Cha"
+                android:text="ㅊ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Ka"
+                android:text="ㅋ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Ta"
+                android:text="ㅌ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Pa"
+                android:text="ㅍ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_Ha"
+                android:text="ㅎ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_AtoZ"
+                android:text="A~Z" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
