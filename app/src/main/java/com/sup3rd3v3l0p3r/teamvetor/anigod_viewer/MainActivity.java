@@ -16,6 +16,7 @@ import com.sup3rd3v3l0p3r.teamvetor.anigod_viewer.AniList.AniList_Ha;
 import com.sup3rd3v3l0p3r.teamvetor.anigod_viewer.AniList.AniList_Ka;
 import com.sup3rd3v3l0p3r.teamvetor.anigod_viewer.AniList.AniList_Ma;
 import com.sup3rd3v3l0p3r.teamvetor.anigod_viewer.AniList.AniList_Na;
+import com.sup3rd3v3l0p3r.teamvetor.anigod_viewer.AniList.AniList_New;
 import com.sup3rd3v3l0p3r.teamvetor.anigod_viewer.AniList.AniList_Pa;
 import com.sup3rd3v3l0p3r.teamvetor.anigod_viewer.AniList.AniList_Ra;
 import com.sup3rd3v3l0p3r.teamvetor.anigod_viewer.AniList.AniList_Sa;
@@ -56,6 +57,6 @@ public class MainActivity extends AppCompatActivity {
     public void aniList_Pa(View v){startActivity(new Intent(this,AniList_Pa.class));}
     public void aniList_Ha(View v){startActivity(new Intent(this,AniList_Ha.class));}
     public void aniList_AtoZ(View v){startActivity(new Intent(this,AniList_AtoZ.class));}
-
+    public void aniList_New(View v){startActivity(new Intent(this,AniList_New.class));}
 
 }

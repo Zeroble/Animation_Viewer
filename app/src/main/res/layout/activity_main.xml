@@ -15,7 +15,13 @@
             android:layout_height="match_parent"
             android:background="#ff5252"
             android:orientation="vertical">
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/button_background"
+                android:onClick="aniList_New"
+                android:text="New" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="40dp"

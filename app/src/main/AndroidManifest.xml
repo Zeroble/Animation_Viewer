@@ -40,6 +40,7 @@
         <activity android:name=".AniList.AniList_Pa"/>
         <activity android:name=".AniList.AniList_Ha"/>
         <activity android:name=".AniList.AniList_AtoZ"/>
+        <activity android:name=".AniList.AniList_New"/>
         <activity android:name=".ShowEp"/>
     </application>
 
